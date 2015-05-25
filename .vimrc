@@ -1,9 +1,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+"Requires pathogen to install plugins
 execute pathogen#infect()
 filetype plugin indent on
 
+"hard mode ;)
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -11,19 +13,21 @@ nnoremap <right> <nop>
 
 set background=dark
 
-"set textwidth=82
-"set cindent
+"spaces or tabs...tabs
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+"expand tabs to spaces except for Makefiles
 set expandtab
 au BufRead,BufNewFile Makefile* set noexpandtab
 
+"nice menu for completion of vim commands
 set wildmenu
 
 set nocp 		    "no compatible
 
+"search options
 set incsearch
 set hlsearch
 syn on
