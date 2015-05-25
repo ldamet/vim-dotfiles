@@ -1,5 +1,9 @@
 "Requires pathogen to install plugins
 execute pathogen#infect()
+
+" nerdtree plugin
+" https://github.com/scrooloose/nerdtree.git
+
 filetype plugin indent on
 
 "hard mode ;)
