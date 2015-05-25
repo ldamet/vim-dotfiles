@@ -1,6 +1,3 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
 "Requires pathogen to install plugins
 execute pathogen#infect()
 filetype plugin indent on
