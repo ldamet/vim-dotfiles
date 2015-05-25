@@ -1,0 +1,3 @@
+git clone https://github.com/Rip-Rip/clang_complete.git
+cd clang_complete
+make install
